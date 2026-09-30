@@ -1,0 +1,657 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cyda Sa | Designer de Sobrancelhas</title>
+    <link rel="stylesheet" href="src/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header" id="header">
+        <nav class="nav container">
+            <a href="#hero" class="logo">
+                <img src="src/imagens/logo-cydasa-valença-rj.png" alt="Cyda Sa - Designer de Sobrancelhas" class="logo-img">
+            </a>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#servicos">Serviços</a></li>
+                <li><a href="#depoimentos">Depoimentos</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+            <a href="#contato" class="btn btn-gold nav-cta">Agendar</a>
+            <button class="menu-toggle" id="menuToggle" aria-label="Menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </nav>
+    </header>
+
+    <!-- Hero -->
+    <section class="hero" id ="hero">
+        <div class="hero-overlay"></div>
+        <div class="hero-content container">
+            <p class="hero-subtitle">Designer de Sobrancelhas</p>
+            <h1 class="hero-title">Realce a beleza do seu olhar</h1>
+            <p class="hero-text">Técnicas exclusivas e personalizadas para valorizar sua expressão natural com precisão e elegância.</p>
+            <div class="hero-buttons">
+                <a href="#contato" class="btn btn-gold">Agendar Horário</a>
+                <a href="#servicos" class="btn btn-outline">Conhecer Serviços</a>
+            </div>
+        </div>
+        <div class="hero-scroll">
+            <span>Role para descobrir</span>
+            <div class="scroll-line"></div>
+        </div>
+    </section>
+
+    <!-- Sobre -->
+    <section class="sobre section" id="sobre">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Sobre</span>
+                <h2 class="section-title">Conheça a Cyda Sa</h2>
+            </div>
+            <div class="sobre-grid">
+                <div class="sobre-image">
+                    <div class="image-frame">
+                        <img src="https://images.unsplash.com/photo-1560066984-138dadb4c035?w=600&h=700&fit=crop" alt="Cyda Sa - Designer de Sobrancelhas">
+                    </div>
+                    <div class="sobre-badge">
+                        <span class="badge-number">5+</span>
+                        <span class="badge-text">Anos de<br>Experiência</span>
+                    </div>
+                </div>
+                <div class="sobre-text">
+                    <h3>Paixão pela arte de transformar olhares</h3>
+                    <p>Com mais de 5 anos de experiência, Cyda Sa se especializou em design de sobrancelhas, ajudando mulheres a recuperarem a autoestima e a confiança através de um olhar harmonioso e expressivo.</p>
+                    <p>Cada rosto é único, e é por isso que todos os procedimentos são personalizados, respeitando a anatomia facial, o estilo e a personalidade de cada cliente.</p>
+                    <ul class="sobre-features">
+                        <li>
+                            <span class="feature-icon">✓</span>
+                            <div>
+                                <strong>Técnicas Avançadas</strong>
+                                <p>Formação nacional e internacional</p>
+                            </div>
+                        </li>
+                        <li>
+                            <span class="feature-icon">✓</span>
+                            <div>
+                                <strong>Atendimento Personalizado</strong>
+                                <p>Exclusivo para cada cliente</p>
+                            </div>
+                        </li>
+                        <li>
+                            <span class="feature-icon">✓</span>
+                            <div>
+                                <strong>Higiene e Segurança</strong>
+                                <p>Protocolos rigorosos de biossegurança</p>
+                            </div>
+                        </li>
+                    </ul>
+                    <a href="#contato" class="btn btn-brown">Agende sua Consulta</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Serviços -->
+    <section class="servicos section" id="servicos">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Serviços</span>
+                <h2 class="section-title">Nossos Serviços</h2>
+                <p class="section-desc">Conheça todos os procedimentos oferecidos pela Cyda Sa</p>
+            </div>
+            <div class="servicos-filtros">
+                <button class="filtro-btn active" data-filtro="todos">Todos</button>
+                <button class="filtro-btn" data-filtro="sobrancelhas">Sobrancelhas</button>
+                <button class="filtro-btn" data-filtro="depilacao">Depilação</button>
+                <button class="filtro-btn" data-filtro="micropigmentacao">Micropigmentação</button>
+                <button class="filtro-btn" data-filtro="cilios">Cílios</button>
+                <button class="filtro-btn" data-filtro="facial">Facial</button>
+            </div>
+            <div class="servicos-grid">
+                <!-- Sobrancelhas -->
+                <div class="servico-card" data-categoria="sobrancelhas">
+                    <div class="servico-image">
+                        <img src="https://images.unsplash.com/photo-1560066984-138dadb4c035?w=400&h=250&fit=crop" alt="Designer de sobrancelha">
+                    </div>
+                    <div class="servico-content">
+                        <h3>Designer de Sobrancelha</h3>
+                        <p>Modelagem personalizada respeitando a anatomia e formato do seu rosto.</p>
+                        <div class="servico-meta">
+                            <span class="servico-duracao">⏱ 30min</span>
+                            <span class="servico-price">R$ 35,00</span>
+                        </div>
+                        <a href="#contato" class="btn btn-small">Agendar</a>
+                    </div>
+                </div>
+                <div class="servico-card" data-categoria="sobrancelhas">
+                    <div class="servico-image">
+                        <img src="https://images.unsplash.com/photo-1512496015851-a90fb38ba796?w=400&h=250&fit=crop" alt="Designer de sobrancelhas com henna">
+                    </div>
+                    <div class="servico-content">
+                        <h3>Designer de Sobrancelhas com Henna</h3>
+                        <p>Design personalizado + coloração com henna para um efeito marcante.</p>
+                        <div class="servico-meta">
+                            <span class="servico-duracao">⏱ 30min</span>
+                            <span class="servico-price">R$ 55,00</span>
+                        </div>
+                        <a href="#contato" class="btn btn-small">Agendar</a>
+                    </div>
+                </div>
+                <div class="servico-card" data-categoria="sobrancelhas">
+                    <div class="servico-image">
+                        <img src="https://images.unsplash.com/photo-1570172619644-dfd03ed5d881?w=400&h=250&fit=crop" alt="Brow Lamination">
+                    </div>
+                    <div class="servico-content">
+                        <h3>Brow Lamination com Designer e Henna</h3>
+                        <p>Alinhamento dos fios + design + henna para sobrancelhas volumosas.</p>
+                        <div class="servico-meta">
+                            <span class="servico-duracao">⏱ 1h</span>
+                            <span class="servico-price">R$ 100,00</span>
+                        </div>
+                        <a href="#contato" class="btn btn-small">Agendar</a>
+                    </div>
+                </div>
+                <div class="servico-card" data-categoria="sobrancelhas">
+                    <div class="servico-image">
+                        <img src="https://images.unsplash.com/photo-1596704017254-9b121068fb31?w=400&h=250&fit=crop" alt="Combo especial">
+                    </div>
+                    <div class="servico-content">
+                        <h3>Combo Especial: Designer com Henna e Buço</h3>
+                        <p>Combo completo: design de sobrancelhas + henna + depilação de buço.</p>
+                        <div class="servico-meta">
+                            <span class="servico-duracao">⏱ 30min</span>
+                            <span class="servico-price">R$ 60,00</span>
+                        </div>
+                        <a href="#contato" class="btn btn-small">Agendar</a>
+                    </div>
+                </div>
+                <!-- Depilação -->
+                <div class="servico-card" data-categoria="depilacao">
+                    <div class="servico-image">
+                        <img src="https://images.unsplash.com/photo-1519699047748-de8e457a634e?w=400&h=250&fit=crop" alt="Depilação de virilha completa">
+                    </div>
+                    <div class="servico-content">
+                        <h3>Depilação de Virilha Completa</h3>
+                        <p>Depilação completa da região da virilha com técnica profissional.</p>
+                        <div class="servico-meta">
+                            <span class="servico-duracao">⏱ 30min</span>
+                            <span class="servico-price">R$ 60,00</span>
+                        </div>
+                        <a href="#contato" class="btn btn-small">Agendar</a>
+                    </div>
+                </div>
+                <div class="servico-card" data-categoria="depilacao">
+                    <div class="servico-image">
+                        <img src="https://images.unsplash.com/photo-1503236823255-94609f598e71?w=400&h=250&fit=crop" alt="Depilação de axila">
+                    </div>
+                    <div class="servico-content">
+                        <h3>Depilação de Axila</h3>
+                        <p>Depilação rápida e eficiente da região das axilas.</p>
+                        <div class="servico-meta">
+                            <span class="servico-duracao">⏱ 15min</span>
+                            <span class="servico-price">R$ 35,00</span>
+                        </div>
+                        <a href="#contato" class="btn btn-small">Agendar</a>
+                    </div>
+                </div>
+                <div class="servico-card" data-categoria="depilacao">
+                    <div class="servico-image">
+                        <img src="https://images.unsplash.com/photo-1522337660859-02fbefca4702?w=400&h=250&fit=crop" alt="Depilação meia perna">
+                    </div>
+                    <div class="servico-content">
+                        <h3>Depilação de Meia Perna</h3>
+                        <p>Depilação da região da canela até o joelho.</p>
+                        <div class="servico-meta">
+                            <span class="servico-duracao">⏱ 15min</span>
+                            <span class="servico-price">R$ 35,00</span>
+                        </div>
+                        <a href="#contato" class="btn btn-small">Agendar</a>
+                    </div>
+                </div>
+                <div class="servico-card" data-categoria="depilacao">
+                    <div class="servico-image">
+                        <img src="https://images.unsplash.com/photo-1519415510236-718bdfcd89c8?w=400&h=250&fit=crop" alt="Depilação perna inteira">
+                    </div>
+                    <div class="servico-content">
+                        <h3>Depilação de Perna Inteira</h3>
+                        <p>Depilação completa das pernas, do tornozelo até a coxa.</p>
+                        <div class="servico-meta">
+                            <span class="servico-duracao">⏱ 30min</span>
+                            <span class="servico-price">R$ 55,00</span>
+                        </div>
+                        <a href="#contato" class="btn btn-small">Agendar</a>
+                    </div>
+                </div>
+                <div class="servico-card" data-categoria="depilacao">
+                    <div class="servico-image">
+                        <img src="https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=400&h=250&fit=crop" alt="Depilação de braço">
+                    </div>
+                    <div class="servico-content">
+                        <h3>Depilação de Braço</h3>
+                        <p>Depilação completa dos braços com técnica profissional.</p>
+                        <div class="servico-meta">
+                            <span class="servico-duracao">⏱ 15min</span>
+                            <span class="servico-price">R$ 35,00</span>
+                        </div>
+                        <a href="#contato" class="btn btn-small">Agendar</a>
+                    </div>
+                </div>
+                <div class="servico-card" data-categoria="depilacao">
+                    <div class="servico-image">
+                        <img src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=400&h=250&fit=crop" alt="Depilação de buço">
+                    </div>
+                    <div class="servico-content">
+                        <h3>Depilação de Buço</h3>
+                        <p>Depilação rápida e precisa dos pelos do buço.</p>
+                        <div class="servico-meta">
+                            <span class="servico-duracao">⏱ 10min</span>
+                            <span class="servico-price">R$ 20,00</span>
+                        </div>
+                        <a href="#contato" class="btn btn-small">Agendar</a>
+                    </div>
+                </div>
+                <div class="servico-card" data-categoria="depilacao">
+                    <div class="servico-image">
+                        <img src="https://images.unsplash.com/photo-1531123897727-8f129e1688ce?w=400&h=250&fit=crop" alt="Depilação feminina nádegas">
+                    </div>
+                    <div class="servico-content">
+                        <h3>Depilação Feminina Nádegas</h3>
+                        <p>Depilação da região das nádegas com discrição e profissionalismo.</p>
+                        <div class="servico-meta">
+                            <span class="servico-duracao">⏱ 30min</span>
+                            <span class="servico-price">R$ 35,00</span>
+                        </div>
+                        <a href="#contato" class="btn btn-small">Agendar</a>
+                    </div>
+                </div>
+                <div class="servico-card" data-categoria="depilacao">
+                    <div class="servico-image">
+                        <img src="https://images.unsplash.com/photo-1508214751196-bcfd4ca60f91?w=400&h=250&fit=crop" alt="Depilação dentro do nariz">
+                    </div>
+                    <div class="servico-content">
+                        <h3>Depilação Dentro do Nariz</h3>
+                        <p>Remoção dos pelos internos do nariz com segurança.</p>
+                        <div class="servico-meta">
+                            <span class="servico-duracao">⏱ 10min</span>
+                            <span class="servico-price">R$ 20,00</span>
+                        </div>
+                        <a href="#contato" class="btn btn-small">Agendar</a>
+                    </div>
+                </div>
+                <!-- Micropigmentação -->
+                <div class="servico-card" data-categoria="micropigmentacao">
+                    <div class="servico-image">
+                        <img src="https://images.unsplash.com/photo-1560066984-138dadb4c035?w=400&h=250&fit=crop" alt="Micropigmentação de sobrancelhas">
+                    </div>
+                    <div class="servico-content">
+                        <h3>Micropigmentação de Sobrancelhas</h3>
+                        <p>Técnica de micropigmentação que cria fios realistas e naturais.</p>
+                        <div class="servico-meta">
+                            <span class="servico-duracao">⏱ 1h 30min</span>
+                            <span class="servico-price">R$ 640,00</span>
+                        </div>
+                        <a href="#contato" class="btn btn-small">Agendar</a>
+                    </div>
+                </div>
+                <div class="servico-card" data-categoria="micropigmentacao">
+                    <div class="servico-image">
+                        <img src="https://images.unsplash.com/photo-1512496015851-a90fb38ba796?w=400&h=250&fit=crop" alt="Retoque de micropigmentação">
+                    </div>
+                    <div class="servico-content">
+                        <h3>Retoque de Micropigmentação</h3>
+                        <p>Retoque para manter o pigmento sempre perfeito e renovado.</p>
+                        <div class="servico-meta">
+                            <span class="servico-duracao">⏱ 1h 30min</span>
+                            <span class="servico-price">R$ 340,00</span>
+                        </div>
+                        <a href="#contato" class="btn btn-small">Agendar</a>
+                    </div>
+                </div>
+                <div class="servico-card" data-categoria="micropigmentacao">
+                    <div class="servico-image">
+                        <img src="https://images.unsplash.com/photo-1570172619644-dfd03ed5d881?w=400&h=250&fit=crop" alt="Retoque micropigmentação pós 30 dias">
+                    </div>
+                    <div class="servico-content">
+                        <h3>Retoque Micropigmentação Pós 30 Dias</h3>
+                        <p>Retoque gratuito após 30 dias para ajustes necessários.</p>
+                        <div class="servico-meta">
+                            <span class="servico-duracao">⏱ 1h 30min</span>
+                            <span class="servico-price">R$ 75,00</span>
+                        </div>
+                        <a href="#contato" class="btn btn-small">Agendar</a>
+                    </div>
+                </div>
+                <div class="servico-card" data-categoria="micropigmentacao">
+                    <div class="servico-image">
+                        <img src="https://images.unsplash.com/photo-1596704017254-9b121068fb31?w=400&h=250&fit=crop" alt="Micropigmentação labial">
+                    </div>
+                    <div class="servico-content">
+                        <h3>Micropigmentação Labial</h3>
+                        <p>Realce dos lábios com cor natural e contorno definido.</p>
+                        <div class="servico-meta">
+                            <span class="servico-duracao">⏱ 2h</span>
+                            <span class="servico-price">R$ 640,00</span>
+                        </div>
+                        <a href="#contato" class="btn btn-small">Agendar</a>
+                    </div>
+                </div>
+                <div class="servico-card" data-categoria="micropigmentacao">
+                    <div class="servico-image">
+                        <img src="https://images.unsplash.com/photo-1519415510236-718bdfcd89c8?w=400&h=250&fit=crop" alt="Retoque lábios pós 30 dias">
+                    </div>
+                    <div class="servico-content">
+                        <h3>Retoque Lábios Pós 30 Dias</h3>
+                        <p>Retoque labial após 30 dias para manter a cor perfeita.</p>
+                        <div class="servico-meta">
+                            <span class="servico-duracao">⏱ 1h 30min</span>
+                            <span class="servico-price">R$ 70,00</span>
+                        </div>
+                        <a href="#contato" class="btn btn-small">Agendar</a>
+                    </div>
+                </div>
+                <!-- Cílios -->
+                <div class="servico-card" data-categoria="cilios">
+                    <div class="servico-image">
+                        <img src="https://images.unsplash.com/photo-1503236823255-94609f598e71?w=400&h=250&fit=crop" alt="Remoção dos cílios">
+                    </div>
+                    <div class="servico-content">
+                        <h3>Remoção dos Cílios</h3>
+                        <p>Remoção segura de extensões ou cílios postiços.</p>
+                        <div class="servico-meta">
+                            <span class="servico-duracao">⏱ 30min</span>
+                            <span class="servico-price">R$ 50,00</span>
+                        </div>
+                        <a href="#contato" class="btn btn-small">Agendar</a>
+                    </div>
+                </div>
+                <div class="servico-card" data-categoria="cilios">
+                    <div class="servico-image">
+                        <img src="https://images.unsplash.com/photo-1522337660859-02fbefca4702?w=400&h=250&fit=crop" alt="Cílios">
+                    </div>
+                    <div class="servico-content">
+                        <h3>Cílios</h3>
+                        <p>Aplicação de extensões de cílios para um olhar marcante.</p>
+                        <div class="servico-meta">
+                            <span class="servico-duracao">⏱ 1h 30min</span>
+                            <span class="servico-price">R$ 130,00</span>
+                        </div>
+                        <a href="#contato" class="btn btn-small">Agendar</a>
+                    </div>
+                </div>
+                <div class="servico-card" data-categoria="cilios">
+                    <div class="servico-image">
+                        <img src="https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=400&h=250&fit=crop" alt="Manutenção de cílios">
+                    </div>
+                    <div class="servico-content">
+                        <h3>Manutenção de Cílios</h3>
+                        <p>Manutenção das extensões para manter o volume perfeito.</p>
+                        <div class="servico-meta">
+                            <span class="servico-duracao">⏱ 1h 30min</span>
+                            <span class="servico-price">R$ 80,00</span>
+                        </div>
+                        <a href="#contato" class="btn btn-small">Agendar</a>
+                    </div>
+                </div>
+                <!-- Facial -->
+                <div class="servico-card" data-categoria="facial">
+                    <div class="servico-image">
+                        <img src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=400&h=250&fit=crop" alt="Limpeza de pele profunda">
+                    </div>
+                    <div class="servico-content">
+                        <h3>Limpeza de Pele Profunda + Revitalização Facial</h3>
+                        <p>Limpeza completa + revitalização para uma pele renovada e saudável.</p>
+                        <div class="servico-meta">
+                            <span class="servico-duracao">⏱ 1h 15min</span>
+                            <span class="servico-price">R$ 130,00</span>
+                        </div>
+                        <a href="#contato" class="btn btn-small">Agendar</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Depoimentos -->
+    <section class="depoimentos section" id="depoimentos">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Depoimentos</span>
+                <h2 class="section-title">O Que Dizem as Clientes</h2>
+            </div>
+            <div class="depoimentos-slider" id="depoimentosSlider">
+                <div class="depoimentos-track" id="depoimentosTrack">
+                    <div class="depoimento-card">
+                        <div class="depoimento-stars">★★★★★</div>
+                        <p class="depoimento-text">"Atendimento impecável. O ambiente super agradável! Tudo muito limpo e higienizado. Muito simpática, profissional e Pontual."</p>
+                        <div class="depoimento-author">
+                            <div class="author-avatar">A</div>
+                            <div>
+                                <strong>Aline</strong>
+                                <span>Designer com henna e buço, depilação, retoque de micropigmentação</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="depoimento-card">
+                        <div class="depoimento-stars">★★★★★</div>
+                        <p class="depoimento-text">"Ótima profissional"</p>
+                        <div class="depoimento-author">
+                            <div class="author-avatar">D</div>
+                            <div>
+                                <strong>Daniele</strong>
+                                <span>Designer de sobrancelha e depilação</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="depoimento-card">
+                        <div class="depoimento-stars">★★★★★</div>
+                        <p class="depoimento-text">"Melhor em Valença RJ"</p>
+                        <div class="depoimento-author">
+                            <div class="author-avatar">C</div>
+                            <div>
+                                <strong>Camila S.</strong>
+                                <span>Depilação</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="depoimento-card">
+                        <div class="depoimento-stars">★★★★★</div>
+                        <p class="depoimento-text">"Excelente profissional, super recomendado."</p>
+                        <div class="depoimento-author">
+                            <div class="author-avatar">T</div>
+                            <div>
+                                <strong>Talita</strong>
+                                <span>Depilação</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="depoimento-card">
+                        <div class="depoimento-stars">★★★★★</div>
+                        <p class="depoimento-text">"Adorei, segunda vez que faço, recomendo, ótima profissional!"</p>
+                        <div class="depoimento-author">
+                            <div class="author-avatar">P</div>
+                            <div>
+                                <strong>Paula</strong>
+                                <span>Retoque micropigmentação</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="depoimento-card">
+                        <div class="depoimento-stars">★★★★★</div>
+                        <p class="depoimento-text">"Cida é maravilhosa, simpática, atenciosa e super profissional"</p>
+                        <div class="depoimento-author">
+                            <div class="author-avatar">A</div>
+                            <div>
+                                <strong>Aline</strong>
+                                <span>Depilação e buço</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="slider-controls">
+                    <button class="slider-btn" id="prevBtn" aria-label="Anterior">❮</button>
+                    <div class="slider-dots" id="sliderDots"></div>
+                    <button class="slider-btn" id="nextBtn" aria-label="Próximo">❯</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA -->
+    <section class="cta section">
+        <div class="container">
+            <div class="cta-content">
+                <h2>Pronta para transformar seu olhar?</h2>
+                <p>Agende sua consulta e descubra o design perfeito para você</p>
+                <a href="#contato" class="btn btn-gold btn-large">Agendar Agora</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contato -->
+    <section class="contato section" id="contato">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Contato</span>
+                <h2 class="section-title">Agende Seu Horário</h2>
+            </div>
+            <div class="contato-grid">
+                <div class="contato-info">
+                    <div class="contato-item">
+                        <div class="contato-icon">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                                <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/>
+                                <circle cx="12" cy="10" r="3"/>
+                            </svg>
+                        </div>
+                        <div>
+                            <strong>Localização</strong>
+                            <p>São Paulo, SP</p>
+                        </div>
+                    </div>
+                    <div class="contato-item">
+                        <div class="contato-icon">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                                <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/>
+                            </svg>
+                        </div>
+                        <div>
+                            <strong>Telefone / WhatsApp</strong>
+                            <p>(11) 99999-9999</p>
+                        </div>
+                    </div>
+                    <div class="contato-item">
+                        <div class="contato-icon">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                                <circle cx="12" cy="12" r="10"/>
+                                <polyline points="12 6 12 12 16 14"/>
+                            </svg>
+                        </div>
+                        <div>
+                            <strong>Horário de Funcionamento</strong>
+                            <p>Seg - Sáb: 9h às 19h</p>
+                        </div>
+                    </div>
+                    <div class="contato-item">
+                        <div class="contato-icon">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                                <rect x="2" y="2" width="20" height="20" rx="5" ry="5"/>
+                                <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/>
+                                <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/>
+                            </svg>
+                        </div>
+                        <div>
+                            <strong>Instagram</strong>
+                            <p>@cydasa_sobrancelhas</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="contato-agendamento">
+                    <div class="agendamento-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                            <rect x="3" y="4" width="18" height="18" rx="2" ry="2"/>
+                            <line x1="16" y1="2" x2="16" y2="6"/>
+                            <line x1="8" y1="2" x2="8" y2="6"/>
+                            <line x1="3" y1="10" x2="21" y2="10"/>
+                        </svg>
+                    </div>
+                    <h3>Agende Online</h3>
+                    <p>Agende seu horário de forma rápida e prática através da nossa plataforma de agendamento online.</p>
+                    <a href="https://booksy.com/pt-br/249393_cyda-sa_sobrancelhas-cilios_681512_valenca?do=invite&_branch_match_id=1614448658536497215&utm_medium=profile_share_from_target_type&_branch_referrer=H4sIAAAAAAAAA8soKSkottLXT07J0UvKz88urtRLzs/VN/bMK8q2LPatME2yrytKTUstKsrMS49PKsovL04tsnXOKMrPTQUAykRv0TwAAAA=" target="_blank" class="btn btn-booksy btn-full">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                            <rect x="3" y="4" width="18" height="18" rx="2" ry="2"/>
+                            <line x1="16" y1="2" x2="16" y2="6"/>
+                            <line x1="8" y1="2" x2="8" y2="6"/>
+                            <line x1="3" y1="10" x2="21" y2="10"/>
+                        </svg>
+                        Agendar no Booksy
+                    </a>
+                    <div class="agendamento-divider">
+                        <span>ou</span>
+                    </div>
+                    <a href="https://wa.me/5511999999999?text=Olá! Gostaria de agendar um horário." target="_blank" class="btn btn-whatsapp-outline btn-full">
+                        <svg viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/>
+                        </svg>
+                        Falar no WhatsApp
+                    </a>
+                    <div class="agendamento-info">
+                        <span class="agendamento-status">● Online agora</span>
+                        <span class="agendamento-time">Resposta rápida</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <a href="#" class="logo">Cyda <span>Sa</span></a>
+                    <p>Designer de Sobrancelhas especializada em realçar a beleza natural do seu olhar.</p>
+                    <div class="social-links">
+                        <a href="https://www.instagram.com/cydasa_sobrancelhas/" target="_blank" aria-label="Instagram">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                                <rect x="2" y="2" width="20" height="20" rx="5" ry="5"/>
+                                <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/>
+                                <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+                <div class="footer-links">
+                    <h4>Links Rápidos</h4>
+                    <ul>
+                        <li><a href="#sobre">Sobre</a></li>
+                        <li><a href="#servicos">Serviços</a></li>
+                        <li><a href="#depoimentos">Depoimentos</a></li>
+                        <li><a href="#contato">Contato</a></li>
+                    </ul>
+                </div>
+                <div class="footer-links">
+                    <h4>Serviços</h4>
+                    <ul>
+                        <li><a href="#servicos" data-filtro="sobrancelhas">Sobrancelhas</a></li>
+                        <li><a href="#servicos" data-filtro="depilacao">Depilação</a></li>
+                        <li><a href="#servicos" data-filtro="micropigmentacao">Micropigmentação</a></li>
+                        <li><a href="#servicos" data-filtro="cilios">Cílios</a></li>
+                        <li><a href="#servicos" data-filtro="facial">Facial</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Cyda Sa - Designer de Sobrancelhas. Todos os direitos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="src/script.js"></script>
+</body>
+</html>
